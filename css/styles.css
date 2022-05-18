@@ -3,6 +3,19 @@
 /*primary colors: #ce9797, ##f96262
 neutral colors: #413a3a*/
 
+
+.left-panel {
+    background-image: url("images/bg-pattern-desktop.svg") ;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+
+}
+
+
+/*Footer*/
 .attribution { 
     font-size: 11px; 
     text-align: center; }
