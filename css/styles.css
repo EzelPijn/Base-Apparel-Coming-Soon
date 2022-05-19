@@ -5,15 +5,26 @@ neutral colors: #413a3a
 gradient colors: #ffffff #fff5f5 #f8bfbf #ee8c8c
 */
 
+/*General Formatting*/
 .container {
     width: 100%;
-    vertical-align: middle;
+}
+
+.email-input, .submit, .left-panel, .right-panel{
+    display: inline-block;
 }
     
+.right-panel, .left-panel, .container {
+    vertical-align: middle;
+}
+
+h1, .message, .invalid-email-message, .error{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 
 /*Left Panel*/
 .left-panel {
-    display: inline-block;
     max-width: 400px;
     margin-left: 20%;
     padding: 100px 100px 100px 100px;
@@ -21,7 +32,6 @@ gradient colors: #ffffff #fff5f5 #f8bfbf #ee8c8c
     background-repeat:no-repeat;
     background-size:fill;
     z-index: 1;
-    vertical-align: middle;
 }
 
 .logo {
@@ -33,7 +43,6 @@ gradient colors: #ffffff #fff5f5 #f8bfbf #ee8c8c
 }
 
 h1 {
-    font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
     letter-spacing: 0.75rem;
     line-height: 1rem;
@@ -46,7 +55,6 @@ h1 {
 }
 
 .message {
-    font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     font-size: 16px;
     color:#ce9797;
@@ -65,9 +73,6 @@ h1 {
     padding: 8px 8px 8px 20px;
 }
 
-.email-input {
-    display: inline-block;
-}
 
 .invalid-email {
     color: ##f96262;
@@ -75,7 +80,6 @@ h1 {
 
 .invalid-email-message {
     color: #f96262;
-    font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     font-size: 0.9rem;
     padding-left: 40%;
@@ -86,7 +90,6 @@ h1 {
     color:#413a3a;
     background-image: url("../images/icon-error.svg");
     background-position:  85%, 50%;
-    font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     opacity: 100%;
     background-repeat: no-repeat;
@@ -96,7 +99,6 @@ h1 {
     border-radius: 25px;
     border-color: #f96262;
     padding: 8px 8px 8px 20px;
-   
 }
 
 .submit-btn {
@@ -108,7 +110,7 @@ h1 {
     border-radius: 25px; 
     vertical-align: bottom;
     position:  relative; left: 80px; top: 16px;
-    box-shadow: 3px 1px 1px #413a3a;
+    box-shadow: 3px 1px 10px #413a3a;
 }
 
 .submit-btn-hover {
@@ -120,19 +122,11 @@ h1 {
     border-radius: 25px; 
     vertical-align: bottom;
     position:  relative; left: 80px; top: 16px;
-    box-shadow: 3px 1px 1px #413a3a;
+    box-shadow: 3px 1px 10px #413a3a;
 }
 
-.submit {
-    display: inline-block
-}
 
 /*Right Panel*/
-.right-panel {
-    display: inline-block;
-    vertical-align: middle;
-}
-
 .right-image {
     object-fit:cover;
     max-width: 90%;
