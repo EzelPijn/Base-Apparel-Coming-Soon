@@ -80,6 +80,7 @@ h1 {
     font-size: 0.9rem;
     padding-left: 20px;
     display:none;
+
 }
 
 .error {
@@ -112,7 +113,15 @@ h1 {
 }
 
 .submit-btn-hover {
-    background:  -webkit-linear-gradient(45deg, #ffffff,  #fff5f5,);
+    background:  -webkit-linear-gradient(45deg, #fff5f5,#f8bfbf);
+    font-size: 16px;
+    height: 1rem;
+    width: 15px;
+    padding: 18px 40px 18px 40px;
+    border-radius: 25px; 
+    vertical-align: bottom;
+    position:  relative; left: 80px; top: 16px;
+    box-shadow: 3px 1px 1px #413a3a;
 }
 
 .submit {
